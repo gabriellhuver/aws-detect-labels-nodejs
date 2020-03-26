@@ -1,0 +1,28 @@
+{
+  "name": "aws-detect-labels-nodejs",
+  "version": "1.0.0",
+  "description": "Pacote de exemplo para reconhecimento de imagen na AWS Rekognition",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/__TEST__/teste.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriellhuver/aws-detect-labels-nodejs.git"
+  },
+  "keywords": [
+    "aws",
+    "rekognition",
+    "exaple"
+  ],
+  "author": "Gabriell Huver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabriellhuver/aws-detect-labels-nodejs/issues"
+  },
+  "homepage": "https://github.com/gabriellhuver/aws-detect-labels-nodejs#readme",
+  "dependencies": {
+    "aws-sdk": "^2.646.0",
+    "dotenv": "^8.2.0"
+  }
+}
